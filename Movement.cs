@@ -12,11 +12,6 @@ public class Movement : MonoBehaviour
     
     Vector3 velocity;
 
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
         float x = Input.GetAxis("Horizontal");
